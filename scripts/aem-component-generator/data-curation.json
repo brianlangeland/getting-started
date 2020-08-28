@@ -1,0 +1,58 @@
+{
+  "project-settings": {
+    "code-owner": "Sanjay Rai",
+    "bundle-path": "../../core/src/main/java",
+    "test-path": "../../core/src/test/java",
+    "apps-path": "../../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "gettingStarted/components",
+    "model-interface-pkg": "com.aem.core.models",
+    "model-impl-pkg": "com.aem.core.models.impl"
+  },
+  "name": "curation",
+  "title": "Curation",
+  "group": "Getting Started",
+  "type": "content",
+  "options": {
+    "js": true,
+    "jstxt": true,
+    "css": true,
+    "csstxt": true,
+    "html": true,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": false,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "tags",
+        "description": "Select tags to be used to render curated cards.",
+        "javadoc": "Returns a list of tags",
+        "type": "textfield",
+        "label": "Tags to Curate",
+        "json-expose": true,
+        "attributes": {
+          "multiple": "{Boolean}true"
+        }
+      }
+    ],
+    "properties-shared": [
+      {
+        "field": "tags",
+        "description": "Select tags to be used to render curated cards.",
+        "javadoc": "Returns a list of tags",
+        "type": "textfield",
+        "label": "Tags to Curate",
+        "json-expose": true,
+        "attributes": {
+          "multiple": "{Boolean}true"
+        }
+      }
+    ],
+    "properties-global": []
+  }
+}
