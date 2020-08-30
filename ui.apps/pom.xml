@@ -56,6 +56,12 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
+                    <repositoryStructurePackages>
+                        <repositoryStructurePackage>
+                            <groupId>com.aem</groupId>
+                            <artifactId>gettingStarted.ui.apps.structure</artifactId>
+                        </repositoryStructurePackage>
+                    </repositoryStructurePackages>
                     <embeddeds>
                         <embedded>
                             <groupId>com.adobe.cq</groupId>
@@ -139,6 +145,13 @@
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aem</groupId>
+            <artifactId>gettingStarted.ui.apps.structure</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
         </dependency>
 
         <dependency>
